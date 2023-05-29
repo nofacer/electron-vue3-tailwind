@@ -16,14 +16,14 @@
     <div
         class="h-12 flex flex-col justify-center hover:bg-sky-500 hover:text-white transition duration-150 ease-in-out"
         @click="router.push('/setting')">
-      <AdjustmentsIcon class="h-5 w-5 place-self-center"/>
+      <AdjustmentsVerticalIcon class="h-5 w-5 place-self-center"/>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
 import image from '@/assets/logo.png'
-import {AdjustmentsIcon, HomeIcon, InformationCircleIcon} from '@heroicons/vue/outline'
+import {AdjustmentsVerticalIcon, HomeIcon, InformationCircleIcon} from '@heroicons/vue/24/outline'
 import router from "../router";
 </script>
 
